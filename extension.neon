@@ -1,0 +1,5 @@
+services:
+    -
+        class: App\FooExtension
+        tags:
+            - phpstan.broker.methodsClassReflectionExtension
